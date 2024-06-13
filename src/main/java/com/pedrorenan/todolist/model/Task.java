@@ -22,7 +22,7 @@ public class Task {
     private String title;
 
     @Column(nullable = false)
-    private String desciption;
+    private String description;
 
     @Column(nullable = false)
     private Date deadLine;
